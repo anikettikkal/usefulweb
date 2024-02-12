@@ -22,7 +22,7 @@
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     padding: 0 4px;
 }
 
@@ -35,7 +35,8 @@
 .card {
     margin: 8px;
     padding: 16px;
-    background-color: #f1f1f1;
+    background-color:white;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
 }
 
 @media screen and (max-width: 800px) {
@@ -44,7 +45,7 @@
         max-width: 50%;
     }
     .mainimage{
-        max-width:400px;
+        max-width:450px;
     }
 }
 
@@ -53,4 +54,14 @@
         flex: 100%;
         max-width: 100%;
     }
+}
+
+
+.second-div{
+    background-color:aliceblue;
+}
+
+.logo{
+    border-radius: 50%;
+    height:50px;
 }
