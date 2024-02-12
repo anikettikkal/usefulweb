@@ -1,15 +1,56 @@
-.land-page-1{
-    height:30rem;
+.land-page-1 {
+    height: 30rem;
     background-color: ;
 }
 
-.words{
-    color:#3bdb49;
+.words {
+    color: #3bdb49;
 }
-.text{
+
+.text {
     font-size: 1rem;
     color: black;
 }
-.fab{
+
+.fab {
     color: #3bdb49;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+}
+
+.card {
+    margin: 8px;
+    padding: 16px;
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+    .mainimage{
+        max-width:280px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
