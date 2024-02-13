@@ -1,3 +1,6 @@
+.maindiv{
+    background: #f2e6ff;
+}
 .land-page-1 {
     height: 30rem;
     background-color: ;
@@ -58,10 +61,11 @@
 
 
 .second-div{
-    background-color:aliceblue;
+    background-color:white;
 }
 
 .logo{
     border-radius: 50%;
     height:50px;
 }
+
