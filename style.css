@@ -1,6 +1,8 @@
-.maindiv{
+/* card section and mainpage */
+.maindiv {
     background: #f2e6ff;
 }
+
 .land-page-1 {
     height: 30rem;
     background-color: ;
@@ -25,7 +27,7 @@
 
 .row {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     padding: 0 4px;
 }
 
@@ -38,8 +40,8 @@
 .card {
     margin: 8px;
     padding: 16px;
-    background-color:white;
-    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+    background-color: white;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 800px) {
@@ -47,8 +49,9 @@
         flex: 50%;
         max-width: 50%;
     }
-    .mainimage{
-        max-width:450px;
+
+    .mainimage {
+        max-width: 450px;
     }
 }
 
@@ -60,12 +63,129 @@
 }
 
 
-.second-div{
-    background-color:white;
+.second-div {
+    background-color: white;
 }
 
-.logo{
+.logo {
     border-radius: 50%;
-    height:50px;
+    height: 50px;
 }
 
+/*footer */
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #f2e6ff;
+    position: relative;
+}
+
+.footer {
+    color: white;
+}
+
+.links {
+    width: 300px;
+    height: 320px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links h2 {
+    font-size: 20px;
+    color: #3bdb49;
+}
+
+.sub-links {
+    width: 200px;
+    height: 200px;
+}
+
+.sub-links a {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(110, 109, 109, 0.979);
+    text-decoration: none;
+}
+
+.sub-links a:hover {
+    color: orangered;
+}
+
+.social-menu {
+    padding: 5px;
+    padding-top: 50px;
+}
+
+.social-menu ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    display: flex;
+
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.social-menu ul li .fab {
+    font-size: 30px;
+    line-height: 50px;
+    transition: .3px;
+    color: #000;
+}
+
+.social-menu ul li .fab:hover {
+    color: #fff;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    transition: .6s;
+    box-shadow: 0 0 5px 4px rgba(95, 94, 94, 0.767);
+}
+
+.social-menu ul li a:hover {
+    transform: translate(0, -10%);
+}
+
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #0077b5;
+}
+
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #002E6E;
+}
+
+.input-design {
+    background: transparent;
+    border: none;
+    border-bottom: 1px white solid;
+}
+
+.form-desgin {
+    background: rgb(255, 255, 255, 0.05);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+
+}
