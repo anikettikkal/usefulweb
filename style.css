@@ -5,7 +5,7 @@
 
 .land-page-1 {
     height: 30rem;
-   
+
 }
 
 .words {
@@ -99,27 +99,8 @@
 }
 
 
-.myimg {
-    height: 400px;
-    border-radius: 30px;
-    filter: drop-shadow(10px 10px 20px grey);
-}
 
-.myimg2 {
-    height: 430px;
-    border-radius: 30px;
-    filter: drop-shadow(10px 10px 20px grey);
-}
 
-.forimg {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.conimg {
-    flex-grow: 1;
-
-}
 
 
 
