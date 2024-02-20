@@ -44,7 +44,18 @@
     background-color: white;
     box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
 }
-
+.forbuttons{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.demobutton{
+    width: 150px;
+}
+.codebutton{
+    width: 150px;
+}
 .mainimage {
     width: 100%;
 }
