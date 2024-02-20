@@ -111,7 +111,11 @@
 }
 
 
-
+.myimage{
+    width: 200px;
+    border-radius: 20%;
+    filter: drop-shadow(10px 10px 20px gray);
+}
 
 
 
