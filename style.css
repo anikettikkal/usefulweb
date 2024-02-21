@@ -1,8 +1,10 @@
 /* card section and mainpage */
 .maindiv {
-    background: #f2e6ff;
+    background:black;
 }
-
+.navBar{
+    background-color: rgb(55,60,56);
+}
 .land-page-1 {
     height: 30rem;
 
@@ -16,7 +18,9 @@
     font-size: 1rem;
     color: black;
 }
-
+.blacktheme{
+    color: white;
+}
 .fab {
     color: #3bdb49;
     cursor: pointer;
@@ -41,7 +45,8 @@
 .card {
     margin: 8px;
     padding: 16px;
-    background-color: white;
+    background-color: black;
+    filter: drop-shadow(10px 10px 20px white);
     box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 .forbuttons{
@@ -80,7 +85,7 @@
 
 
 .second-div {
-    background-color: white;
+    background-color:rgb(55,60,56);
 }
 
 .logo {
@@ -126,7 +131,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: white;
+    background: rgb(55,60,56);
     position: relative;
 }
 
